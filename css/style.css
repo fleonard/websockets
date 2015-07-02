@@ -1,0 +1,30 @@
+.container{
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 500px;
+	width: 1024px;
+}
+
+.users{
+	float:left;
+	width:100px;
+	border-right:1px solid black;
+	height:300px;
+	padding:10px;
+	overflow-y:scroll;
+}
+
+.chat{
+	position: relative;
+	float:left;
+	width:300px;
+	height:300px;
+	overflow-y:scroll;
+	padding:10px;
+}
+
+#send{
+	position: absolute;
+	bottom: 0;
+}
